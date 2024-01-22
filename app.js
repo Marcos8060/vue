@@ -2,9 +2,11 @@ const app = Vue.createApp({
   data() {
     return {
       showBooks: true,
-      title: "The Final Empire",
-      author: "Roselyda Ayoo",
-      age: 22,
+      books:[
+        {title: 'Titaninc', url: 'Roselyda Ayoo'},
+        {title: 'My Lord and I', url: 'Marcos Ochieng'},
+        {title: 'Messages to young lovers', url: 'Nancy Van Pelt'},
+      ]
     };
   },
   methods: {
